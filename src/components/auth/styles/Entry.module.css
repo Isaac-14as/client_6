@@ -1,0 +1,45 @@
+.EntryBox {
+    display: flex;
+
+}
+
+.navMain {
+    display: flex;
+    width: 100%;
+    background: linear-gradient(to right, rgb(6, 6, 6), rgb(52, 52, 52));
+}
+
+.Form {
+    margin-top: 110px;
+    width: 700px;
+}
+
+.navBar {
+    margin-top: 200px;
+}
+
+.navBar {
+    width: 340px;
+    margin-top: 200px;
+    border-bottom: solid 2px rgb(209, 125, 0);
+    border-left: solid 2px rgb(209, 125, 0);
+    padding-left: 30px;
+    padding-bottom: 10px;
+    height: 150px;
+    font-size: 35px;
+}
+.navItem {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.navItem:hover {
+    color:  rgb(209, 125, 0);
+    transition: 0.15s;
+}
+
+
+.navItemActiv {
+    color:  rgb(209, 125, 0);
+}

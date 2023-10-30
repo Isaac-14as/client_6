@@ -1,0 +1,47 @@
+.Main {
+    /* background-color: aqua; */
+    height: 990px;
+}
+
+.fon {
+    margin-bottom: -100px;
+    position: absolute;
+    opacity: 0.9;
+}
+
+
+.MainInfo {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+    color: black;
+    width: 850px;
+    height: 400px;
+}
+
+.title {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+
+.title:nth-child(3) {
+    margin-top: 0px;
+}
+.nameInfo {
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, rgb(227, 61, 61), rgb(255, 136, 0));
+    font-size: 40px;
+}
+
+.fon1 {
+    background-color: black;
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 70px;
+    opacity: 0.7;
+}

@@ -1,0 +1,103 @@
+.SubPage {
+    /* background-color: aqua; */
+    height: 670px;
+}
+.SubMain {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.title1 {
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.title2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.Name {
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, rgb(227, 61, 61), rgb(255, 136, 0));
+}
+.info {
+    width: 600px;
+    /* background-color: rgb(24, 24, 38); */
+    color: black;
+}
+.pay {
+    background-color: black;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.oppField {
+    margin-bottom: 20px;
+}
+
+.ItemBox { 
+    border: solid 1px rgb(209, 125, 0);
+    margin: 5px;
+}
+.LabelBox { 
+    color: rgb(209, 125, 0);
+    display: flex;
+    justify-content: center;
+
+}
+.UserFormItem {
+    display: block;
+    width: 370px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    text-align:center;
+    color: white;
+    font-size: 20px;
+    outline:none;
+}
+
+.title3 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.Error {
+    color: rgb(255, 2, 2);
+    font-size: 16px;
+}
+
+.Btn {
+    display: block;
+    margin-top: 50px;
+    padding: 20px;
+    border: solid 1px rgb(209, 125, 0);
+    background: none;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: 0.3s;
+}
+
+.Btn:disabled:hover {
+    transition: 0.2s;
+    border: solid 1px rgb(209, 0, 0);
+    background: rgb(209, 0, 0);
+}
+
+.Btn:hover {
+    transition: 0.2s;
+    border: solid 1px rgb(209, 125, 0);
+    background: rgb(209, 125, 0);
+}
+.notError {
+    color: rgb(2, 255, 36);
+}
