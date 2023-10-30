@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { ITrainer } from '../models/ITrainer';
-import { bd_host } from '../conf';
+
 
 
 export const trainerAPI = createApi({
