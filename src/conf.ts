@@ -1,1 +1,0 @@
-export const bd_host = 'http://localhost:8000'
